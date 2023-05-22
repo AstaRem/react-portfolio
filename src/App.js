@@ -2,19 +2,47 @@ import './App.css';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import ProjectGallery from './components/ProjectGallery';
-// import Project from './components/Project';
-
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <nav>
+          <ul>
+            <li>
+              <Link to="/react-portfolio">Home</Link>
+            </li>
+            <li>
+              <Link to="/react-portfolio/contact">Contact</Link>
+            </li>
+            <li>
+              <Link to="/react-portfolio/project-gallery">Project Gallery</Link>
+            </li>
+          </ul>
+        </nav>
 
-      <Home />
-      <Contact />
-      <ProjectGallery />
-      
-    </div>
+
+      <Routes>
+        <Route path="/react-portfolio" element={<Home />} />
+        <Route path="/react-portfolio/contact" element={<Contact />} />
+        <Route path="/react-portfolio/project-gallery" element={<ProjectGallery />} />      
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
+
+{/* <nav>
+<ul>
+  <li>
+    <Link to="/react-portfolio">Home</Link>
+  </li>
+  <li>
+    <Link to="/react-portfolio/contact">Contact</Link>
+  </li>
+  <li>
+    <Link to="/react-portfolio/project-gallery">Projects</Link>
+  </li>
+</ul>
+</nav> */}
