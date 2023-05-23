@@ -13,10 +13,7 @@ Tools and technologies used:
 
 ## Installation
 There is no installation needed, please vies this project in browser.
-
-## Usage
-
-    ![alt text](assets/images/screenshot.png)
+Link to deployed version [here](https://astarem.github.io/react-portfolio/)
 
 ## Tests
 
