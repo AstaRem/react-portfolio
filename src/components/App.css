@@ -28,6 +28,11 @@ li .nav-item {
   font-size: 1.2rem;
 }
 
+#profile{
+  width: 300px;
+  border-radius: 13px;
+}
+
 /* Contact */
 .form-input, 
 .contacts {
