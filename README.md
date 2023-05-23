@@ -12,8 +12,8 @@ Tools and technologies used:
 - HTML
 
 ## Installation
-There is no installation needed, please vies this project in browser.
-Link to deployed version [here](https://astarem.github.io/react-portfolio/)
+There is no installation needed, please view this project in browser.
+Link to deployed version is [here](https://astarem.github.io/react-portfolio/).
 
 ## Tests
 
