@@ -1,25 +1,30 @@
-import './App.css';
+import './components/App.css';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import ProjectGallery from './components/ProjectGallery';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
+  // const styles = {
+  //   body: {
+  //     backgroundColor: "#f5f5f5",
+  //   }
+  // }
   return (
     <Router>
-      <nav>
-          <ul>
-            <li>
-              <Link to="/react-portfolio">Home</Link>
-            </li>
-            <li>
-              <Link to="/react-portfolio/contact">Contact</Link>
-            </li>
-            <li>
-              <Link to="/react-portfolio/project-gallery">Project Gallery</Link>
-            </li>
-          </ul>
-        </nav>
+      <nav >
+        <ul className="nav justify-content-end">
+          <li className="nav-item">
+            <Link to="/react-portfolio">Home</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/react-portfolio/contact">Contact</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/react-portfolio/project-gallery">Projects</Link>
+          </li>
+        </ul>
+      </nav>
 
 
       <Routes>
@@ -32,17 +37,3 @@ function App() {
 }
 
 export default App;
-
-{/* <nav>
-<ul>
-  <li>
-    <Link to="/react-portfolio">Home</Link>
-  </li>
-  <li>
-    <Link to="/react-portfolio/contact">Contact</Link>
-  </li>
-  <li>
-    <Link to="/react-portfolio/project-gallery">Projects</Link>
-  </li>
-</ul>
-</nav> */}
