@@ -2,11 +2,11 @@
     "projectList": [
       {
         "id": 1,
-        "title": "title1",
-        "image": "img1",
+        "title": "StayExplorer",
+        "image": "./stayExplorer.jpg",
         "description": "desc1",
-        "linkGitH": "linkGH1",
-        "linkDepl": "linkdepl"
+        "linkGitH": "https://github.com/AstaRem/travel-app",
+        "linkDepl": "https://github.com/AstaRem/travel-app"
       },
       {
         "id": 2,

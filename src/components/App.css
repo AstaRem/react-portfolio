@@ -4,8 +4,43 @@ body{
 
 #homeComp{
   background-color: #444A56;
-  font-size: 50px ;
   color:white;
   padding: 50px;
+}
 
+.nav-link{
+  color: white !important;
+  font-size: 1.2rem !important;
+}
+
+li .nav-item {
+  padding: 10px !important;
+}
+
+/* Header */
+#brand-name{
+  color: white;
+  margin-top: 20px;
+}
+
+/* Home */
+#statement{
+  font-size: 1.2rem;
+}
+
+/* Contact */
+.form-input, 
+.contacts {
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+form{
+  margin: 4rem 2rem;
+}
+
+/* Project */
+.card {
+  margin: 2rem 0;
 }

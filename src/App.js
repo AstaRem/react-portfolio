@@ -1,4 +1,5 @@
 import './components/App.css';
+import Header from './components/Header'
 import Home from './components/Home';
 import Contact from './components/Contact';
 import ProjectGallery from './components/ProjectGallery';
@@ -11,17 +12,20 @@ function App() {
   //   }
   // }
   return (
+    <>
+    <Header />
     <Router>
+
       <nav >
         <ul className="nav justify-content-end">
           <li className="nav-item">
-            <Link to="/react-portfolio">Home</Link>
+            <Link  className="nav-link" to="/react-portfolio">Home</Link>
           </li>
           <li className="nav-item">
-            <Link to="/react-portfolio/contact">Contact</Link>
+            <Link className="nav-link" to="/react-portfolio/contact">Contact</Link>
           </li>
           <li className="nav-item">
-            <Link to="/react-portfolio/project-gallery">Projects</Link>
+            <Link className="nav-link" to="/react-portfolio/project-gallery">Projects</Link>
           </li>
         </ul>
       </nav>
@@ -33,6 +37,7 @@ function App() {
         <Route path="/react-portfolio/project-gallery" element={<ProjectGallery />} />      
       </Routes>
     </Router>
+    </>
   );
 }
 

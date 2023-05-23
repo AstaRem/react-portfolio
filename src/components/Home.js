@@ -3,17 +3,11 @@ import './App.css';
 
 
 function Home() {
-  // const styles = {
-  //   main: {
-  //     backgroundColor: "#f5f5f5", 
-  //     fontSize:"50px !important",
-  //   }
-  // }
-
 
     return (
       <div className="home" id="homeComp" >
-      <h1 name='home'>Hi, I am Asta, Front-end developer </h1>
+      <h1 name='home'>Hi, I am Asta <br /> Front-end Web Developer </h1>
+      <p id="statement">You landed on my portfolio website. I post my projects here as I learn.</p>
       </div>
     );
   }
