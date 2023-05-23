@@ -2,51 +2,51 @@
     "projectList": [
       {
         "id": 1,
-        "title": "StayExplorer",
-        "image": "./stayExplorer.jpg",
+        "title":  "Group project StayExplorer",
+        "image": "/stayExplorer.jpg",
         "description": "desc1",
         "linkGitH": "https://github.com/AstaRem/travel-app",
-        "linkDepl": "https://github.com/AstaRem/travel-app"
+        "linkDepl": "https://astarem.github.io/travel-app/"
       },
       {
         "id": 2,
-        "title": "",
-        "image": "",
+        "title": "Weather App",
+        "image": "/weatherApp.jpg",
         "description": "",
-        "linkGitH": "",
-        "linkDepl": ""
+        "linkGitH": "https://github.com/AstaRem/weather-app",
+        "linkDepl": "https://astarem.github.io/weather-app/"
       },
       {
         "id": 3,
-        "title": "",
-        "image": "",
+        "title": "Work day planner",
+        "image": "/workPlanner.jpg",
         "description": "",
-        "linkGitH": "",
-        "linkDepl": ""
+        "linkGitH": "https://github.com/AstaRem/workday-planner-app",
+        "linkDepl": "https://astarem.github.io/workday-planner-app/"
       },
       {
         "id": 4,
-        "title": "",
-        "image": "",
+        "title": "Coding(JavaScript) timed quiz",
+        "image": "/codingQuiz.jpg",
         "description": "",
-        "linkGitH": "",
-        "linkDepl": ""
+        "linkGitH": "https://github.com/AstaRem/coding-quiz-timed",
+        "linkDepl": "https://astarem.github.io/coding-quiz-timed/"
       },
       {
         "id": 5,
-        "title": "",
-        "image": "",
+        "title": "Bootstrap 4 portfolio",
+        "image": "/bootstrap4Portfolio.jpg",
         "description": "",
-        "linkGitH": "",
-        "linkDepl": ""
+        "linkGitH": "https://github.com/AstaRem/bootstrap4-portfolio",
+        "linkDepl": "https://astarem.github.io/bootstrap4-portfolio/"
       },
       {
         "id": 6,
-        "title": "",
-        "image": "",
+        "title": "CSS snippet cheatsheet",
+        "image": "/cssSnippets.jpg",
         "description": "",
-        "linkGitH": "",
-        "linkDepl": ""
+        "linkGitH": "https://github.com/AstaRem/css-snippet-cheatsheet",
+        "linkDepl": "https://astarem.github.io/css-snippet-cheatsheet/"
       }
     ]
   }

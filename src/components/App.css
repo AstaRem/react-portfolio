@@ -43,4 +43,9 @@ form{
 /* Project */
 .card {
   margin: 2rem 0;
+  padding: 10px;
+}
+
+.card-img-top {
+  width: 30% !important;
 }
