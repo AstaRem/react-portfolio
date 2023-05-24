@@ -54,3 +54,6 @@ form{
 .card-img-top {
   width: 30% !important;
 }
+.contacts a{
+  color: rgb(223, 202, 202);
+}

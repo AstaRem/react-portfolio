@@ -17,7 +17,7 @@ function Contact(){
     </form>
     </form>
       <p className="contacts">My Email: asta.rem777@gmail.com</p>
-      <p className="contacts">You can download a PDF version of my CV <a href={process.env.PUBLIC_URL + "/CV.pdf"} >here</a>.</p>
+      <p className="contacts">You can download a PDF version of my CV <a href={process.env.PUBLIC_URL + "/CV_05_2023.pdf"} >here</a>.</p>
       <p className="contacts">Here is my <a href="https://github.com/AstaRem">GitHub</a>.</p>
       <p className="contacts">You can find me on <a href="https://www.linkedin.com/in/asta-rem-developer/">LinkedIn</a>.</p>
 </>

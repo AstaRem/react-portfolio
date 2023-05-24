@@ -4,7 +4,7 @@
 
 Here is a MVP for my React Portfolio. I have used React to create this single page application. 
 
-In the header of the page is my name and navigation. I use React router to navigate through the page. user lands to Home page:
+In the header of the page is my name and Navigation. I use React Router to navigate through the page. User lands to Home page:
 
 ![home](./public/imgREADME/home.jpg)
 
