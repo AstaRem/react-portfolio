@@ -1,10 +1,8 @@
-// import Navbar from './Navbar';
 
 function Contact(){
     return(
     <>
     <form>
-        {/* <h2 name="contact">Here will be the form to contact me</h2> */}
         <form>
           <div  name="contact" className="form-group">
             <label class="form-input" for="exampleFormControlInput1">Your Email address:</label>

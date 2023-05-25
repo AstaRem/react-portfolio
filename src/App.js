@@ -6,11 +6,6 @@ import ProjectGallery from './components/ProjectGallery';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
-  // const styles = {
-  //   body: {
-  //     backgroundColor: "#f5f5f5",
-  //   }
-  // }
   return (
     <>
     <Header />
