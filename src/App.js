@@ -11,13 +11,13 @@ function App() {
     <>
     <Header />
     <Router>
-
+      
       <nav class="navigation" >
         <ul className="nav justify-content-start">
           <li className="nav-item">
             <Link  className="nav-link" to="/react-portfolio">Home</Link>
           </li>
-          <li className="nav-item not_active">
+          <li className="nav-item">
             <Link className="nav-link" to="/react-portfolio/project-gallery">Projects</Link>
           </li>
 
@@ -26,6 +26,25 @@ function App() {
           </li>
         </ul>
       </nav>
+
+      {/* <li className={`nav-item ${activeNavItem === 'home' ? 'active' : ''}`}>
+  <Link className="nav-link" to="/react-portfolio" onClick={() => setActiveNavItem('home')}>
+    Home
+  </Link>
+</li>
+
+<li className={`nav-item ${activeNavItem === 'projects' ? 'active' : ''}`}>
+  <Link className="nav-link" to="/react-portfolio/project-gallery" onClick={() => setActiveNavItem('projects')}>
+    Projects
+  </Link>
+</li>
+
+<li className={`nav-item ${activeNavItem === 'contact' ? 'active' : ''}`}>
+  <Link className="nav-link" to="/react-portfolio/contact" onClick={() => setActiveNavItem('contact')}>
+    Contact
+  </Link>
+</li>
+ */}
 
 
       <Routes>

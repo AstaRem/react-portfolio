@@ -78,18 +78,34 @@ h1 {
 .nav-item {
   /* padding: 0 1rem 0; */
   color: #F5F5F5;
-  background-color: #46536A;
+  /* background-color: #46536A; */
+  background-color: #3E495E;
   border-top-right-radius: 13px;
   border-top-left-radius: 13px;
   padding-right: 2rem;
+  padding-left: 2rem;
+
   /* background-color: #4D5C77; */
   /* margin-left: 2rem; */
-  
 }
 
-.not_active{
-  background-color: #3E495E;
+.nav-item:hover{
+  background-color:#46536A ;
 }
+
+.nav-item:active{
+  background-color:#46536A !important;
+
+}
+
+/* .not_active{
+  background-color: #3E495E;
+} */
+
+/* .nav-link:hover {
+  background-color:azure ;
+} */
+
 
 .navigation{
   width: 90% !important;
