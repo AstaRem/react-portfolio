@@ -1,42 +1,154 @@
-body{
-  background-color: #444A56 !important;
+
+  @import url('https://fonts.googleapis.com/css2?family=Battambang:wght@300;400;700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body, html{
+  /* background-color: #444A56 !important; */
+  background-color: #2F3D52 !important;
+  color: #F5F5F5 !important;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
-#homeComp{
-  background-color: #444A56;
-  color:white;
-  padding: 50px;
-}
-
-.nav-link{
-  color: white !important;
-  font-size: 1.2rem !important;
-}
-
-li .nav-item {
-  padding: 10px !important;
+p {
+  margin-bottom: 0.5rem !important;
 }
 
 /* Header */
-#brand-name{
-  color: white;
-  margin-top: 20px;
+#brand_name{
+  /* color: white; */
+  background-color: #4D5C77;
+  padding: 3rem auto 1.25rem;
+  /* width: 100%; */
 }
 
+/* h1.brand_surname, 
+h1.brand_title{
+  padding: 0;
+  margin: 0;
+} */
+
+h1 {
+  letter-spacing: 2px;
+}
+
+.brand_title_container, 
+.brand_surname_container{
+  margin-bottom: 0;
+  justify-content: start;
+
+}
+
+#brand_title{
+  margin-bottom: 0;
+  font-family: 'Battambang', cursive;
+
+}
+
+#brand_subtitle{
+  font-size: 1.75rem !important;
+  letter-spacing: 2px;
+  margin-bottom: 5px;  /* Adjust when changing fonts*/ 
+
+}
+ 
+.brand_flex_cont {
+  align-items: end;
+}
+
+
+/* Navigation */
+.nav-link{
+  color: #F5F5F5 !important;
+  font-size: 1.25rem !important;
+}
+
+.nav-item {
+  padding: 0 1rem 0;
+  color: #F5F5F5;
+  background-color: #838EA0;
+  margin-left: 2rem;
+  
+}
+
+.navigation{
+  width: 80% !important;
+  margin: 0 auto 0;
+}
+
+/* .navigation ul:last-child .nav-link{
+  padding-right: 0;
+} */
+
 /* Home */
+#home_container{
+  /* background-color: #444A56; */
+  background-color: #46536A;
+  color: #F5F5F5 !important;
+  padding: 0;
+  width: 80% !important;
+  margin: 3rem auto 3rem;
+
+}
+
+/* .about{
+  width: 50% !important;
+} */
+
+.about_description{
+  margin-bottom: 2rem;
+}
+
+#developer{
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+/* Header */
+/* #brand-name{
+  color: white;
+  margin-top: 20px auto 20px !important;
+  width: 90%;
+} */
+
+/* Home */
+h2.home{
+  text-align: center;
+  font-family: 'Battambang', cursive;
+
+
+}
+
+#aspiring_dev{
+  text-align: center;
+  margin-bottom: 2rem !important;
+}
+
 #statement{
   font-size: 1.2rem;
 }
 
-#profile{
-  width: 300px;
-  border-radius: 13px;
+#profile_img{
+  width: 150px;
+  /* opacity: 0.5; */
+  padding: 0;
+  border-radius: 50%;
+}
+
+.prof_image_container{
+    width: 150px;
+    /* border-radius: 50%;*/
+    /* margin: 1rem auto 1rem;  */
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 /* Contact */
 .form-input, 
 .contacts {
-  color: white;
+  color: #F5F5F5 !important;
   padding: 10px;
   font-size: 1.2rem;
 }
@@ -56,4 +168,12 @@ form{
 }
 .contacts a{
   color: rgb(223, 202, 202);
+}
+
+/* Footer */
+footer p{
+  color: #F5F5F5 !important;
+  font-size: 1.25rem;
+  width: 90%;
+  margin: 1rem auto 1rem;
 }
