@@ -79,11 +79,16 @@ h1 {
   /* padding: 0 1rem 0; */
   color: #F5F5F5;
   background-color: #46536A;
-  border-top-right-radius: 60px 80px;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
   padding-right: 2rem;
   /* background-color: #4D5C77; */
   /* margin-left: 2rem; */
   
+}
+
+.not_active{
+  background-color: #3E495E;
 }
 
 .navigation{

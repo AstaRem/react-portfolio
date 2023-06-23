@@ -13,11 +13,11 @@ function App() {
     <Router>
 
       <nav class="navigation" >
-        <ul className="nav nav-tabs justify-content-start">
+        <ul className="nav justify-content-start">
           <li className="nav-item">
             <Link  className="nav-link" to="/react-portfolio">Home</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item not_active">
             <Link className="nav-link" to="/react-portfolio/project-gallery">Projects</Link>
           </li>
 
