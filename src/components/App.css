@@ -89,13 +89,9 @@ h1 {
   /* margin-left: 2rem; */
 }
 
-.nav-item:hover{
-  background-color:#46536A ;
-}
-
-.nav-item:active{
-  background-color:#46536A !important;
-
+.nav-item:hover,
+.nav-item.active {
+  background-color: #46536A;
 }
 
 /* .not_active{
