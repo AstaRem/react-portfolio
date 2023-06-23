@@ -19,8 +19,10 @@ p {
 #brand_name{
   /* color: white; */
   background-color: #4D5C77;
-  padding: 3rem auto 1.25rem;
-  /* width: 100%; */
+  width: 100%;
+  margin: 0;
+  padding: 2rem 4rem;
+
 }
 
 /* h1.brand_surname, 
@@ -36,21 +38,30 @@ h1 {
 .brand_title_container, 
 .brand_surname_container{
   margin-bottom: 0;
-  justify-content: start;
-
+  /* display: flex; */
 }
+
+/* .brand_surname_container{
+  justify-content: center;
+
+} */
+
+
 
 #brand_title{
   margin-bottom: 0;
   font-family: 'Battambang', cursive;
+  padding-left: 2rem;
+  padding-right: 2rem;
 
 }
 
 #brand_subtitle{
   font-size: 1.75rem !important;
   letter-spacing: 2px;
-  margin-bottom: 5px;  /* Adjust when changing fonts*/ 
-
+  margin-bottom: 6px;  /* Adjust when changing fonts*/ 
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
  
 .brand_flex_cont {
@@ -65,16 +76,28 @@ h1 {
 }
 
 .nav-item {
-  padding: 0 1rem 0;
+  /* padding: 0 1rem 0; */
   color: #F5F5F5;
-  background-color: #838EA0;
-  margin-left: 2rem;
+  background-color: #46536A;
+  border-top-right-radius: 60px 80px;
+  padding-right: 2rem;
+  /* background-color: #4D5C77; */
+  /* margin-left: 2rem; */
   
 }
 
 .navigation{
-  width: 80% !important;
-  margin: 0 auto 0;
+  width: 90% !important;
+  margin: 3rem auto 0 auto;
+}
+
+.nav-tabs, .nav-link {
+  border: none !important;
+}
+
+.nav-item{
+  margin-right: 2rem;
+
 }
 
 /* .navigation ul:last-child .nav-link{
@@ -83,12 +106,12 @@ h1 {
 
 /* Home */
 #home_container{
-  /* background-color: #444A56; */
   background-color: #46536A;
   color: #F5F5F5 !important;
-  padding: 0;
-  width: 80% !important;
-  margin: 3rem auto 3rem;
+  padding: 0rem 6rem 2rem 6rem;
+  width: 90% !important;
+  margin: 0rem auto 3rem auto;
+
 
 }
 

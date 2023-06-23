@@ -13,7 +13,7 @@ function App() {
     <Router>
 
       <nav class="navigation" >
-        <ul className="nav justify-content-end">
+        <ul className="nav nav-tabs justify-content-start">
           <li className="nav-item">
             <Link  className="nav-link" to="/react-portfolio">Home</Link>
           </li>
