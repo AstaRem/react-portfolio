@@ -5,11 +5,11 @@ function Contact(){
     <form>
         <form>
           <div  name="contact" className="form-group">
-            <label class="form-input" for="exampleFormControlInput1">Your Email address:</label>
+            <label className="form-input" for="exampleFormControlInput1">Your Email address:</label>
             <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
           </div>
           <div className="form-group">
-            <label class="form-input" for="exampleFormControlTextarea1">Your message:</label>
+            <label className="form-input" for="exampleFormControlTextarea1">Your message:</label>
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
     </form>

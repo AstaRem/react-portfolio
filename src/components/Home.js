@@ -1,5 +1,9 @@
 import React from 'react';
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
+
+
 
 function Home() {
   return (
@@ -10,14 +14,14 @@ function Home() {
         </div>
         <div className="col-md12  about">
           <div className="ms-3">
-            <h2 class="home">Hello, I am Asta, </h2>
+            <h2 className="home">Hello, I am Asta, </h2>
             <div id="statement">
-            <div class="about_description">
+            <div className="about_description">
               <p id="aspiring_dev"><span id="developer">aspiring Front-end Web Developer</span> based in Coventry, United Kingdom. </p>
               <p>Technology, creativity and making useful things are my passion. When I discovered that web development and programming includes all these components, it was a clear career path for me.  The continuous learning aspect of this field excites me and fuels my commitment to personal and professional growth. It is very satisfying to see my lines of code becoming something beautiful and useful, solving problems!  </p>
             </div>
 
-            <div class="about_description">
+            <div className="about_description">
               <p>I recently successfully completed a Front-end Web development and UX design Bootcamp with the University of Birmingham. It equipped me with the solid foundation and confidence to find solutions to the problems.</p>
                 <p>Here's an overview of my tech stack:</p>
                 <ul>
@@ -32,13 +36,29 @@ function Home() {
                 </ul>
               </div>
 
-              <div class="about_description">
+              <div className="about_description">
                 <p>I have showcased some of my projects on Projects page. While continue learning, I will keep adding more projects here.</p>
                 <p>Currently I am seeking for the opportunities to work with smart and ambitious people, become the valuable member of the dynamic team within a company. </p>
                 <p>I am open to freelance opportunities too.</p>
               </div>
 
+              <div class="tech_icons">
+                  <FontAwesomeIcon icon={icon({name:'js', style:'brands'})} />
+                  <FontAwesomeIcon icon={icon({name: 'react', style: 'brands'})} />
+                  <FontAwesomeIcon icon={icon({name: 'node', style: 'brands'})} />
+                  <FontAwesomeIcon icon={icon({name: 'npm', style: 'brands'})} />
 
+                  <FontAwesomeIcon icon={icon({name: 'html5', style: 'brands'})} />
+                  <FontAwesomeIcon icon={icon({name: 'css3-alt', style: 'brands'})} />
+                  <FontAwesomeIcon icon={icon({name: 'bootstrap', style: 'brands'})} />
+
+                  <FontAwesomeIcon icon={icon({name: 'git', style: 'brands'})} />
+                  <FontAwesomeIcon icon={icon({name: 'github', style: 'brands'})} />
+              </div>
+
+
+
+             
 
             </div>
           </div>

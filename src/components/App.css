@@ -80,6 +80,7 @@ h1 {
   color: #F5F5F5;
   /* background-color: #46536A; */
   background-color: #3E495E;
+  transition: #3E495E 0.3s ease;
   border-top-right-radius: 13px;
   border-top-left-radius: 13px;
   padding-right: 2rem;
@@ -181,8 +182,15 @@ h2.home{
     /* border-radius: 50%;*/
     /* margin: 1rem auto 1rem;  */
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-bottom: 2rem;
+}
+
+.tech_icons{
+  color: #838EA0;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* Contact */
