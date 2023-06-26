@@ -1,8 +1,9 @@
 # React Portfolio
 
 ## Description
+### version 1.0
 
-Here is a MVP for my React Portfolio. I have used React to create this single page application. 
+Here is a MVP for my React Portfolio(scroll down to see improved version 2.0 screenshots). I have used React to create this single page application. 
 
 In the header of the page is my name and Navigation. I use React Router to navigate through the page. User lands to Home page:
 
@@ -37,3 +38,5 @@ Link to deployed version is [here](https://astarem.github.io/react-portfolio/).
 ## Tests
 
 N/a
+
+### version 2.0
