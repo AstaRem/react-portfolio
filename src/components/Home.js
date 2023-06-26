@@ -7,7 +7,7 @@ import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function Home() {
   return (
-    <div className="home" id="home_container">
+    <div className="home main_container">
       <div className="row">
         <div className="prof_image_container">
           <img id="profile_img" src={process.env.PUBLIC_URL + "/profilePhotoSquare.jpg"} alt="Profile" />

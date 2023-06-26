@@ -12,8 +12,8 @@ function Project({data}){
             <div className="card-body">
               <h5 className="card-title">{data.title}</h5>
               <div className="d-flex justify-content-end">
-                <a href={data.linkGitH} className="btn btn-secondary me-2">GitHub repository</a>
-                <a href={data.linkDepl} className="btn btn-secondary">Deployed site</a>
+                <a href={data.linkGitH} className="btn btn-secondary me-2" target="_blank" rel="noreferrer">GitHub repository</a>
+                <a href={data.linkDepl} className="btn btn-secondary" target="_blank" rel="noreferrer">Deployed site</a>
               </div>
             </div>
           </div>

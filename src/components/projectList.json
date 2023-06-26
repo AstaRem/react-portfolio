@@ -31,22 +31,6 @@
         "description": "",
         "linkGitH": "https://github.com/AstaRem/coding-quiz-timed",
         "linkDepl": "https://astarem.github.io/coding-quiz-timed/"
-      },
-      {
-        "id": 5,
-        "title": "Bootstrap 4 portfolio",
-        "image": "/bootstrap4Portfolio.jpg",
-        "description": "",
-        "linkGitH": "https://github.com/AstaRem/bootstrap4-portfolio",
-        "linkDepl": "https://astarem.github.io/bootstrap4-portfolio/"
-      },
-      {
-        "id": 6,
-        "title": "CSS snippet cheatsheet",
-        "image": "/cssSnippets.jpg",
-        "description": "",
-        "linkGitH": "https://github.com/AstaRem/css-snippet-cheatsheet",
-        "linkDepl": "https://astarem.github.io/css-snippet-cheatsheet/"
       }
     ]
   }

@@ -6,7 +6,8 @@ function ProjectGallery(){
     console.log(jsonData);
     console.log(jsonData.projectList.length);
     return (
-        <div>
+
+        <div className="main_container d-flex flex-wrap projects_container">
           {
             
             jsonData.projectList.map((data, index) => (

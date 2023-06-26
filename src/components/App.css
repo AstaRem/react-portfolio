@@ -123,7 +123,7 @@ h1 {
 } */
 
 /* Home */
-#home_container{
+.main_container{
   background-color: #46536A;
   color: #F5F5F5 !important;
   padding: 0rem 6rem 2rem 6rem;
@@ -194,15 +194,42 @@ h2.home{
 }
 
 /* Contact */
-.form-input, 
+ 
+.contacts_container{
+  padding: 3rem 0;
+  height: 60vh;
+}
+
+.get_contact{
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-family: 'Battambang', cursive;
+  padding-bottom: 2rem !important;
+}
+
 .contacts {
   color: #F5F5F5 !important;
   padding: 10px;
   font-size: 1.2rem;
 }
 
-form{
+.contact_icon {
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+
+.contacts a:hover{
+  color: white;
+}
+
+/* form{
   margin: 4rem 2rem;
+} */
+
+/* Project Gallery  */
+.projects_container{
+  padding-top: 2rem;
 }
 
 /* Project */
@@ -211,12 +238,18 @@ form{
   padding: 10px;
 }
 
+h5{
+  color: #2F3D52;
+}
+
 .card-img-top {
   width: 30% !important;
 }
 .contacts a{
   color: rgb(223, 202, 202);
 }
+
+
 
 /* Footer */
 footer p{
