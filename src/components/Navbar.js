@@ -31,7 +31,7 @@ function NavbarLinks(){
 
       
         <nav className="navigation" >
-          <ul className="nav justify-content-start">
+          <ul className="nav justify-content-start d-flex flex-nowrap">
             <li className={`nav-item ${activeNavItem === 'home' ? 'active' : ''}`}>
               <Link  className="nav-link" to="/react-portfolio" onClick={() => setActiveNavItem('home')}>Home</Link>
             </li>

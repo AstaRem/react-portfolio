@@ -109,13 +109,20 @@ h1 {
   margin: 3rem auto 0 auto;
 }
 
+
 .nav-tabs, .nav-link {
   border: none !important;
 }
 
 .nav-item{
-  margin-right: 2rem;
+  margin-right: 1rem;
+}
 
+@media (max-width: 620px
+)  {
+  .nav-item{
+    padding: 0 0.5rem;
+  }
 }
 
 /* .navigation ul:last-child .nav-link{
@@ -200,6 +207,7 @@ h2.home{
   height: 60vh;
 }
 
+
 .get_contact{
   font-weight: bold;
   font-size: 1.4rem;
@@ -207,6 +215,8 @@ h2.home{
   font-family: 'Battambang', cursive;
   padding-bottom: 2rem !important;
 }
+
+
 
 .contacts {
   color: #F5F5F5 !important;
@@ -238,13 +248,30 @@ h2.home{
   padding: 10px;
 }
 
-h5{
+
+h5.card-title{
   color: #2F3D52;
+  font-family: 'Battambang', cursive;
 }
+
+.card-body{
+  color: #2F3D52 !important;
+}
+
+
 
 .card-img-top {
   width: 30% !important;
 }
+
+.img_container{
+  padding: 1rem !important;
+}
+
+.project_buttons_cont{
+  margin-top: 1.5rem;
+}
+
 .contacts a{
   color: rgb(223, 202, 202);
 }

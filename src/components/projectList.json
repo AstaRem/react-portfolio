@@ -4,7 +4,7 @@
         "id": 1,
         "title":  "Group project StayExplorer",
         "image": "/stayExplorer.jpg",
-        "description": "desc1",
+        "description": "StayExplorer is a group project created by me and my bootcamp colleague. It is a single page app. When a user wants to travel anywhere in the world, they can use this app to find out what hotels are available in desired area. The landing page shows default city London and available hotels, with default travel dates - starting today +5 days. When user enters their desired destination city and travel dates, clicks search button, the hotels are displayed for the destination.\nRecent searches are saved to the left side panel, in clickable buttons. User can press the button and retrieve the information about hotels again. At the left bottom of the page cities nearby are displayed.\nTechnologies used: Javascript, jQuery, Booking API, Weather API, GeoDB Cities API, JavaScript date range picker, Bootstrap, HTML, CSS.",
         "linkGitH": "https://github.com/AstaRem/travel-app",
         "linkDepl": "https://astarem.github.io/travel-app/"
       },
@@ -12,7 +12,7 @@
         "id": 2,
         "title": "Weather App",
         "image": "/weatherApp.jpg",
-        "description": "",
+        "description": "I made this weather app for a traveler, so they can see the weather outlook for multiple cities anywhere in the world and plan their trip accordingly. Traveler need to enter the city name into search field and hit 'Search'button. After that weather for this city for today and 5 days forecast is displayed.\nAfter user does few searches, six last searches(cities) are saved and displayed on the buttons. Even when user refreshes the page or closes the window - when they come back, the city names are still displayed on the buttons.\nUser can click a city button and retrieve today's weather and forecast for this city again. That is possible because user search is saved in local storage.\nTechnologies used: Open Weather API, JavaScript, jQuery, Bootstrap, CSS, HTML.",
         "linkGitH": "https://github.com/AstaRem/weather-app",
         "linkDepl": "https://astarem.github.io/weather-app/"
       },
@@ -20,7 +20,7 @@
         "id": 3,
         "title": "Work day planner",
         "image": "/workPlanner.jpg",
-        "description": "",
+        "description": "One business day planner app. It displays current time in the header. It has a business hours from 9-5, a space to enter a task for each hour and a button to save it. Once task is saved, it stays even when the browser is refreshed.\nHours are color-coded. Hours in the past are presented in grey, current hour - in orange, future hours - in green, so the colouring of the day will look different depending on the time of the day you are looking at it.\nTechnologies used: JavaScript, jQuery, Moment.js, HTML, CSS.",
         "linkGitH": "https://github.com/AstaRem/workday-planner-app",
         "linkDepl": "https://astarem.github.io/workday-planner-app/"
       },
@@ -28,7 +28,7 @@
         "id": 4,
         "title": "Coding(JavaScript) timed quiz",
         "image": "/codingQuiz.jpg",
-        "description": "",
+        "description": "This project is a short timed multiple choice JavaScript quiz with 4 possible answer options. Once user selected an answer, they get a feedback, saying it is Correct or Wrong.\nQuiz is timed. Each wrong answer takes away 10 seconds time from total available time. If the time runs out before user answers all the questions - game is over and user is presented with the result.\nUser can enter their initials, submit and once they click on Highscores link on the top left, it shows saved initials and score.\nTechnologies used: JavaScript, HTML, CSS.",
         "linkGitH": "https://github.com/AstaRem/coding-quiz-timed",
         "linkDepl": "https://astarem.github.io/coding-quiz-timed/"
       }
