@@ -42,7 +42,7 @@ function Home() {
                 <p>I am open to freelance opportunities too.</p>
               </div>
 
-              <div class="tech_icons">
+              <div className="tech_icons">
                   <FontAwesomeIcon icon={icon({name:'js', style:'brands'})} />
                   <FontAwesomeIcon icon={icon({name: 'react', style: 'brands'})} />
                   <FontAwesomeIcon icon={icon({name: 'node', style: 'brands'})} />
