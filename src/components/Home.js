@@ -38,7 +38,7 @@ function Home() {
 
               <div className="about_description">
                 <p>I have showcased some of my projects on Projects page. While continue learning, I will keep adding more projects here.</p>
-                <p>I am seeking to join a dynamic team and open to freelance opportunities.</p>
+                <p>I am seeking to join a dynamic team and am open to freelance opportunities.</p>
               </div>
 
               <div className="tech_icons">
