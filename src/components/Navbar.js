@@ -1,7 +1,6 @@
 import Home from './Home';
 import Contact from './Contact';
 import ProjectGallery from './ProjectGallery';
-// import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 

@@ -1,6 +1,5 @@
 
 function Project({data}){
-    // console.log(data.image);
 
     // Split the description into paragraphs
     const paragraphs = data.description.split('\n');

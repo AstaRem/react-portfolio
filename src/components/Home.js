@@ -55,11 +55,6 @@ function Home() {
                   <FontAwesomeIcon icon={icon({name: 'git', style: 'brands'})} />
                   <FontAwesomeIcon icon={icon({name: 'github', style: 'brands'})} />
               </div>
-
-
-
-             
-
             </div>
           </div>
         </div>
