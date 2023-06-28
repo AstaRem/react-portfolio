@@ -33,14 +33,14 @@ function NavbarLinks(){
         <nav className="navigation" >
           <ul className="nav justify-content-start d-flex flex-nowrap">
             <li className={`nav-item ${activeNavItem === 'home' ? 'active' : ''}`}>
-              <Link  className="nav-link" to="/react-portfolio" onClick={() => setActiveNavItem('home')}>Home</Link>
+              <Link  className="nav-link" to="/" onClick={() => setActiveNavItem('home')}>Home</Link>
             </li>
             <li className={`nav-item ${activeNavItem === 'projects' ? 'active' : ''}`}>
-              <Link className="nav-link" to="/react-portfolio/project-gallery" onClick={() => setActiveNavItem('projects')}>Projects</Link>
+              <Link className="nav-link" to="/project-gallery" onClick={() => setActiveNavItem('projects')}>Projects</Link>
             </li>
   
             <li className={`nav-item ${activeNavItem === 'contact' ? 'active' : ''}`}>
-              <Link className="nav-link" to="/react-portfolio/contact" onClick={() => setActiveNavItem('contact')}>Contact</Link>
+              <Link className="nav-link" to="/contact" onClick={() => setActiveNavItem('contact')}>Contact</Link>
             </li>
           </ul>
         </nav>  
@@ -53,9 +53,9 @@ function Navbar(){
         <Router>
             <NavbarLinks />
             <Routes>
-                <Route path="/react-portfolio" element={<Home />} />
-                <Route path="/react-portfolio/project-gallery" element={<ProjectGallery />} />      
-                <Route path="/react-portfolio/contact" element={<Contact />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/project-gallery" element={<ProjectGallery />} />      
+                <Route path="/contact" element={<Contact />} />
             </Routes>
         </Router>
 
