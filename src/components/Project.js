@@ -1,5 +1,5 @@
 
-function Project(data){
+function Project({data}){
     // console.log(data.image);
 
     // Split the description into paragraphs
