@@ -1,7 +1,7 @@
 # React Portfolio
 
 ## Description 
-### version 1.0
+### Version 1.0
 
 Here is a MVP for my React Portfolio(scroll down to see improved version 2.0 screenshots). I have used React to create this single page application. 
 
