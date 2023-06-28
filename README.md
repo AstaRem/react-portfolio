@@ -39,7 +39,16 @@ Link to deployed version 1 is [here on GitHub pages](https://astarem.github.io/r
 
 N/a
 
-### version 2.0
+### Version 2.0
+
+## Decription
+
+Main functionality remains the same. 
+
+I made an improvement, that app "remembers" to land on Home section and make the Home tab active. 
+
+Improved styling, made app responsive on various screens.
+
 Home
 ![home](./public/imgREADME/home2.jpg)
 
