@@ -299,6 +299,11 @@ footer p{
     font-size: 1rem !important; 
   }
 
+  #brand_name{
+    padding: 1rem 2rem;
+
+  }
+
 }
 
 

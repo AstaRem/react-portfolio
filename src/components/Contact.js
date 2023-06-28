@@ -28,7 +28,7 @@ function Contact(){
         &nbsp;
         <a href="https://github.com/AstaRem" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={icon({name: 'github', style: 'brands'})} className="contact_icon" /></a>
       </p>
-      <p className="contacts">You can find me on &nbsp; 
+      <p className="contacts">Find me on &nbsp; 
         <a href="https://www.linkedin.com/in/asta-rem-developer/" target="_blank" rel='noreferrer'>LinkedIn</a>
         &nbsp;
         <a href="https://www.linkedin.com/in/asta-rem-developer" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={icon({name: 'linkedin', style: 'brands'})} className="contact_icon"/> </a> 
