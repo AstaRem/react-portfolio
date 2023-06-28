@@ -18,7 +18,7 @@ function Home() {
             <div id="statement">
             <div className="about_description">
               <p id="aspiring_dev"><span id="developer">aspiring Front-end Web Developer</span> based in Coventry, United Kingdom </p>
-              <p>Technology, creativity and making useful things are my passion. When I discovered that web development and programming includes all these components, it was a clear career path for me.  The continuous learning aspect of this field excites me and fuels my commitment to personal and professional growth. It is very satisfying to see my lines of code becoming something beautiful and useful, solving problems!  </p>
+              <p>Technology, creativity and making useful things are my passion. When I discovered that web development and programming includes all these components, it was a clear career path for me. I'm excited to keep learning and growing in this field. It is very satisfying to see my lines of code becoming something beautiful and useful, solving problems!  </p>
             </div>
 
             <div className="about_description">
@@ -38,8 +38,7 @@ function Home() {
 
               <div className="about_description">
                 <p>I have showcased some of my projects on Projects page. While continue learning, I will keep adding more projects here.</p>
-                <p>Currently I am seeking for the opportunities to work with smart and ambitious people, become the valuable member of the dynamic team within a company. </p>
-                <p>I am open to freelance opportunities too.</p>
+                <p>I am seeking to join a dynamic team and open to freelance opportunities.</p>
               </div>
 
               <div className="tech_icons">
