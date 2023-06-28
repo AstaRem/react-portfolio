@@ -1,6 +1,6 @@
+import data from './projectList.json';
 
-
-function Project({data}){
+function Project(){
     // console.log(data.image);
 
     // Split the description into paragraphs
