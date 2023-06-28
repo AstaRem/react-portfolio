@@ -10,7 +10,7 @@ function Project({data}){
       <div className="card">
         <div className="row">
           <div className="col-lg-4 img_container">
-            <img src={process.env.PUBLIC_URL + data.image} className="card-img" alt="..." />
+            <img src={`${process.env.PUBLIC_URL}/${data.image}`} className="card-img" alt="..." />
           </div>
           <div className="col-lg-8">
             <div className="card-body">
