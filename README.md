@@ -1,6 +1,6 @@
 # React Portfolio
 
-## Description
+## Description 
 ### version 1.0
 
 Here is a MVP for my React Portfolio(scroll down to see improved version 2.0 screenshots). I have used React to create this single page application. 
@@ -33,10 +33,19 @@ This is working MVP site for my portfolio and it is work in progress. I am in th
 
 ## Installation
 There is no installation needed, please view this project in browser.
-Link to deployed version is [here](https://astarem.github.io/react-portfolio/).
+Link to deployed version 1 is [here on GitHub pages](https://astarem.github.io/react-portfolio/), version 2 is [deployed on Netlify](https://asta-rem.netlify.app/)
 
 ## Tests
 
 N/a
 
 ### version 2.0
+Home
+![home](./public/imgREADME/home2.jpg)
+
+Contact
+![home](./public/imgREADME/contact2.jpg)
+
+Projects
+![home](./public/imgREADME/projects2.jpg)
+
