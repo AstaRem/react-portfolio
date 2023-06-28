@@ -13,11 +13,11 @@ function Home() {
           <img id="profile_img" src={process.env.PUBLIC_URL + "/profilePhotoSquare.jpg"} alt="Profile" />
         </div>
         <div className="col-md12  about">
-          <div className="ms-3">
+          <div>
             <h2 className="home">Hello, I am Asta, </h2>
             <div id="statement">
             <div className="about_description">
-              <p id="aspiring_dev"><span id="developer">aspiring Front-end Web Developer</span> based in Coventry, United Kingdom. </p>
+              <p id="aspiring_dev"><span id="developer">aspiring Front-end Web Developer</span> based in Coventry, United Kingdom </p>
               <p>Technology, creativity and making useful things are my passion. When I discovered that web development and programming includes all these components, it was a clear career path for me.  The continuous learning aspect of this field excites me and fuels my commitment to personal and professional growth. It is very satisfying to see my lines of code becoming something beautiful and useful, solving problems!  </p>
             </div>
 

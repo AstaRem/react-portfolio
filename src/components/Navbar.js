@@ -12,13 +12,13 @@ function NavbarLinks(){
     useEffect(() => {
         // Update the activeNavItem state based on the current URL
         switch (location.pathname) {
-          case '/react-portfolio':
+          case '/':
             setActiveNavItem('home');
             break;
-          case '/react-portfolio/project-gallery':
+          case '/project-gallery':
             setActiveNavItem('projects');
             break;
-          case '/react-portfolio/contact':
+          case '/contact':
             setActiveNavItem('contact');
             break;
           default:
